@@ -253,11 +253,11 @@ footer {
 }
 /* Desktops*/
 @media screen 
-  and (min-device-width: 1200px) 
+  and (min-device-width: 1400px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     
     .navbar ul {
-      margin-left: 163px;
+      margin-top: 8px;
     }
 }
