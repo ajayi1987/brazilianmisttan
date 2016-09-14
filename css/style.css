@@ -1,8 +1,28 @@
+ .navbar-inverse .navbar-nav>li>a:hover {
+  -webkit-animation: bounceIn 1s;
+}
+.btn-default {
+  color: black;
+  font-family: 'orator-std';
+  border-color: black;
+  background-color: transparent;
+  width: 200px;
+  text-transform: uppercase;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #0a0a0a;
+    border: none;
+}
+
+.booknow {
+  text-align: center;
+}
 .bottom-border {
   border-bottom: 1px solid #adacac;
   margin-top: 50px;
   width: 800px;
-  margin-left: 100px;
+  margin-left:100px;
 }
 
 .col-md-3 {
@@ -22,6 +42,18 @@
   margin-top: 25px;
   padding-left: 16px;
   padding-bottom: 8px;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #58cef2;
+}
+
+.fa-instagram:hover {
+  color:#b5598a;
 }
 
 footer {
@@ -44,30 +76,56 @@ footer {
   text-transform: uppercase;
 }
 
-.jumbotron {
-  background-image: url("../images/jumbotron.png");
-  width: 990px;
-  height: 522px;
-  z-index: 10;
+.footer-nav a {
+  color: #9d9d9d;
 }
 
+.footer-nav a:hover {
+   text-decoration: none;
+  color: white;
+  -webkit-animation: bounceIn 1s;
+}
+
+.jumbotron {
+  background-image: url("../images/jumbotronpureblkwhite.jpg");
+  background-size: cover;
+  height: 600px;
+  margin-top: -21px;
+  margin-bottom: -1px;
+}
+
+.jumbotron2 {
+  background-image: url("../images/jumbotronpurefilter.jpg");
+  background-size: cover;
+  height: 600px;
+  margin-top: -21px;
+  margin-bottom: -1px;
+}
+  }
 .jumbotron a {
-  color: #fff;
-  background-color: #0a0a0a;
-  border-color: #ccc;
-  float: right;
-  font-family: 'orator-std';
-  width: 220px;
-  font-size: 15px;
-  text-transform: uppercase;
+    color: #000;
+    border-color: #251f1f;
+    font-family: 'orator-std';
+    width: 220px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.jumbotron a:hover{
+-webkit-transition: background 500ms ease-in;
+-moz-transition: background 500ms ease-in;
+-ms-transition: background 500ms ease-in;
+-o-transition: background 500ms ease-in;
+transition: background 500ms ease-in;
 }
 
 .jumbotron h1 {
   font-family: 'Josefin Slab', serif;
   text-transform: uppercase;
-  font-size: 50px;
-  padding-left: 205px;
+  font-size: 100px;
   margin-top: -25px;
+  text-align: center;
 }
 
 .navbar {
@@ -124,14 +182,20 @@ footer {
 
 .navbar-brand img {
   width: 120px;
-  margin-top: 20px;
+  margin-top: 16px;
 }
+.services_jumbotron {
+  background-image: url("../images/servicebackgrnd.jpg");
+  height:500px;
+  background-size:cover;
+  margin-top: -25px;
+  }
 
 .top-border {
   border-bottom: 1px solid #adacac;
-  margin-top: 50px;
   width: 800px;
   margin-left: 100px;
+  margin-bottom: 22px;
 }
 
 
@@ -258,6 +322,6 @@ footer {
   and (-webkit-min-device-pixel-ratio: 1) { 
     
     .navbar ul {
-      margin-top: 8px;
+          margin-left: 109px;
     }
 }
