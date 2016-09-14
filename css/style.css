@@ -1,7 +1,7 @@
  .navbar-inverse .navbar-nav>li>a:hover {
   -webkit-animation: bounceIn 1s;
 }
-.btn-default {
+.booknow a {
   color: black;
   font-family: 'orator-std';
   border-color: black;
