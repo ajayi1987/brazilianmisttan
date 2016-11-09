@@ -1,2 +1,3 @@
-  
-$('.jumbotron').fadeIn(3000);
+
+
+$('.item')
